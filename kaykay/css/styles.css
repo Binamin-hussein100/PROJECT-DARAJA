@@ -9,10 +9,34 @@ body{
   align-items: center;
 }
 
+.three{
+  text-decoration: underline;
+}
+
 .container{
   background-color: #3E537C;
   text-align: center;
   opacity: 0.4;
   color: #ffe600;
   border: 50px;
+}
+
+input[type=text] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #1c304e;
+  color: #ffe600;
+  cursor: pointer;
+}
+
+input[type=password] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  cursor: pointer;
+  background-color: #1c304e;
+  color: #ffe600;
 }
