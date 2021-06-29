@@ -13,6 +13,15 @@ body{
   text-decoration: underline;
 }
 
+.four{
+  color: #ffe600;
+  background-color: #1c304e;
+  cursor: pointer;
+  margin: 8px 0;
+  box-sizing:content-box;
+  border-radius: 8%;
+}
+
 .container{
   background-color: #3E537C;
   text-align: center;
