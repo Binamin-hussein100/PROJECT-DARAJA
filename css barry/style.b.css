@@ -79,6 +79,8 @@ ul {
     color: #B2A528;
     text-decoration: none;
     text-transform: uppercase;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2rem;
 }
 
 .page ul li a:hover {
@@ -103,7 +105,7 @@ ul {
     display: block;
     padding: 7px 2px;
     text-decoration: none;
-    font-size: .8em;
+    font-size: 10rem;
 }
 
 .page ul ul li a:hover {
