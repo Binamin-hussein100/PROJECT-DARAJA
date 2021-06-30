@@ -20,6 +20,32 @@ body{
   margin: 8px 0;
   box-sizing:content-box;
   border-radius: 8%;
+  float:right;
+}
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+.fourfive{
+  color: #ffe600;
+  background-color: #0b1b33;
+  cursor: pointer;
+  margin: 8px;
+  box-sizing:content-box;
+  border-radius: 10px 100px / 120px;
+  width: 20%;
 }
 
 .container{
@@ -28,6 +54,11 @@ body{
   opacity: 0.4;
   color: #ffe600;
   border: 50px;
+  border-radius: 10px 100px / 120px;
+}
+
+button:hover {
+  opacity: 0.8;
 }
 
 input[type=text] {
