@@ -9,6 +9,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     height: 100%;
+    background-color: #393939;
 }
 
 img {
@@ -133,7 +134,7 @@ ul {
 }
 
 .content-2 {
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
     float: right;
     border: 10px solid #B2A528;
     border-radius: 50px;
@@ -144,19 +145,41 @@ ul {
 .head {
     display: flex;
     flex-direction: column;
+    text-decoration: underline;
     align-items: center;
     position: relative;
-}
-
-.head {
     color: #ffe605;
 }
 
 .ph {
-    color: #0f0f0f;
+    background-color: #fff;
+    color: #000000;
     font-size: 30px;
+    font-family: 'Shadows Into Light', cursive;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
+}
+
+#admin {
+    color: #ffae00;
+    background-color: #1c304e;
+    cursor: pointer;
+    margin: 14px 0;
+    border-radius: 8%;
+    float: right;
+    font-size: 30px;
+    border-radius: 30px;
+}
+
+#resident {
+    color: #ffae00;
+    background-color: #1c304e;
+    cursor: pointer;
+    margin: 14px 0;
+    border-radius: 8%;
+    float: left;
+    font-size: 30px;
+    border-radius: 30px;
 }
