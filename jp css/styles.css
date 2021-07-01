@@ -1,5 +1,6 @@
 body{
   background-color: #3e537c;
+  font-family: 'Shadows Into Light', cursive;
 }
 .card{
   background-color: #3e537c;
@@ -14,6 +15,7 @@ body{
   font-size: 24px;
   padding-bottom: 2%;
   border-radius: 25%;
+  font-family: 'Shadows Into Light', cursive;
 
 }
 #aboutus{
@@ -24,10 +26,12 @@ body{
   border-radius: 40%;
   margin-top: 4%;
   margin-bottom: 4%;
+  font-family: 'Shadows Into Light', cursive;
 
 }
 p{
   text-align: center;
+  font-style: 'Shadows Into Light', cursive;
   
 }
 #abtbody{
@@ -37,6 +41,8 @@ p{
   text-align: center;
   padding:1%;
   border-radius: 10%;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: xx-large;
 }
 .socials{
   color: #B2A528;
