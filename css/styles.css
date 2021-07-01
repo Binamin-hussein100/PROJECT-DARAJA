@@ -14,14 +14,11 @@
     padding: 2%;
     margin-top: 3%;
 }
- /* trial */
-#bursary-body{
-    background-color: rgb(114, 114, 186);
-    
-}
+ 
 
 .card-body {
     color: goldenrod;
+    /* font-family: 'Shadows Into Light', cursive; */
     background-color: #354D70;
 
 }
@@ -43,4 +40,8 @@ h3{
 
 #contact{
     margin-top: 5%;
+}
+#logo {
+    height: 20vh;
+    margin-left: 41%;
 }

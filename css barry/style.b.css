@@ -8,6 +8,7 @@ body {
     background-image: url("../IMAGE/slum.jpeg");
     background-attachment: fixed;
     background-size: cover;
+    height: 100%;
 }
 
 img {
@@ -47,7 +48,7 @@ ul {
     position: relative;
     /* width: 100px;
     height: auto; */
-    height: 50px;
+    height: 60px;
     width: auto;
     z-index: 1;
     left: 18px;
@@ -124,26 +125,38 @@ ul {
 }
 
 .content-1 {
-    position: relative;
-    top: 50px;
-    right: 350px;
-    width: 40%;
-    height: 75vh;
+    float: left;
     border: 10px solid #B2A528;
     border-radius: 50px;
     margin: 3rem 10rem 0px 30rem;
     box-shadow: inset 0 0 10px #310133;
 }
 
-
-/* .content- {
-    position: relative;
-    top: 50px;
-    left: 350px;
-    width: 300%;
-    height: 50vh;
+.content-2 {
+    padding-top: 5rem;
+    float: right;
     border: 10px solid #B2A528;
     border-radius: 50px;
     margin: 3rem 10rem 0px 30rem;
     box-shadow: inset 0 0 10px #310133;
-} */
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.head {
+    color: #ffe605;
+}
+
+.ph {
+    color: #00ffff;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
