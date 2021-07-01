@@ -133,7 +133,7 @@ ul {
 }
 
 .content-2 {
-    padding-top: 5rem;
+    padding-top: 2rem;
     float: right;
     border: 10px solid #B2A528;
     border-radius: 50px;
@@ -153,7 +153,7 @@ ul {
 }
 
 .ph {
-    color: #00ffff;
+    color: #0f0f0f;
     font-size: 30px;
     display: flex;
     flex-direction: column;
