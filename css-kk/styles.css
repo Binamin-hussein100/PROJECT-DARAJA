@@ -5,9 +5,6 @@ body{
   height: 100%;
   margin: 0;
   display: grid;
-  justify-items: center;
-  font-size: large;
-  align-items: center;
 }
 
 .three{
@@ -36,6 +33,16 @@ body{
 @keyframes animatezoom {
   from {transform: scale(0)}
   to {transform: scale(1)}
+}
+
+.foursix{
+  color: #ffe600;
+  background-color: #1c304e;
+  cursor: pointer;
+  margin: 14px 0;
+  border-radius: 8%;
+  float: left;
+  text-decoration: underline;
 }
 
 .fourfive{
@@ -75,6 +82,7 @@ input[type=text] {
   background-color: #1c304e;
   color: #ffe600;
   cursor: pointer;
+  border-radius: 10px 100px / 120px;
 }
 
 input[type=password] {
@@ -85,4 +93,5 @@ input[type=password] {
   cursor: pointer;
   background-color: #1c304e;
   color: #ffe600;
+  border-radius: 10px 100px / 120px;
 }
