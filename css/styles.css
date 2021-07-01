@@ -1,15 +1,46 @@
 #news1{
     width: 90%;
     margin: auto;
+    padding: 2%;
+}
+
+#news {
+    background-color: #192743;
 }
 
 #news2{
     width: 90%;
     margin: auto;
+    padding: 2%;
     margin-top: 3%;
 }
  /* trial */
 #bursary-body{
-    background-color: blue;
+    background-color: rgb(114, 114, 186);
     
+}
+
+.card-body {
+    color: goldenrod;
+    background-color: #354D70;
+
+}
+
+#kazi-mtaani {
+    height: 36vh;
+}
+
+#userName,
+#userEmail,
+#message{
+    background-color: rgb(53, 53, 112);
+}
+
+h3{
+    color: goldenrod;
+}
+
+
+#contact{
+    margin-top: 5%;
 }
