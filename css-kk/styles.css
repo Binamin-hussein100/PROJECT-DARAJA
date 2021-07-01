@@ -1,7 +1,7 @@
 body{
   background-color: #1c304e;
   color: #e0cd21;
-  /* font-family: 'Shadows Into Light', cursive; */
+  font-family: 'Shadows Into Light', cursive;
   height: 100%;
   margin: 0;
   display: grid;
@@ -9,7 +9,7 @@ body{
 
 .info{
   height: 50vh;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 form{
