@@ -1,7 +1,7 @@
 # PROJECT-DARAJA
 > Project daraja is a website that helps close the gap between resident and the administration.
 
-![screenshot](./Screenshot from 2021-07-01 17-09-05.png)
+![screenshot](![Screenshot from 2021-07-01 17-09-05](https://user-images.githubusercontent.com/82442399/124144565-c3355780-da94-11eb-9a78-be0e5645b07d.png))
 
 ## Built With
 
