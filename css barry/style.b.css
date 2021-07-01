@@ -47,7 +47,7 @@ ul {
     position: relative;
     /* width: 100px;
     height: auto; */
-    height: 50px;
+    height: 60px;
     width: auto;
     z-index: 1;
     left: 18px;
@@ -160,7 +160,7 @@ ul {
 }
 
 .ph {
-    color: #0059ff;
+    color: #00ffff;
     font-size: 30px;
     display: flex;
     flex-direction: column;
