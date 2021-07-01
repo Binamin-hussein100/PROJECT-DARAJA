@@ -7,6 +7,15 @@ body{
   display: grid;
 }
 
+.info{
+  height: 50vh;
+  justify-content: space-between;
+}
+
+form{
+  height: 100%;
+}
+
 .three{
   text-decoration: underline;
 }
@@ -49,10 +58,11 @@ body{
   color: #ffe600;
   background-color: #0b1b33;
   cursor: pointer;
+  padding: 3%;
   margin: 8px;
   box-sizing:content-box;
-  border-radius: 10px 100px / 120px;
-  width: 14%;
+  border-radius: 10px;
+  width: 50%;
 }
 
 .seven{
@@ -61,12 +71,13 @@ body{
 }
 
 .container{
-  background-color: #3E537C;
+  background-color: rgba(20, 37, 83, 0.7);
+  border: 10px solid #B2A528;
   text-align: center;
-  opacity: 0.4;
   color: #ffe600;
-  border: 50px;
-  border-radius: 10px 100px / 120px;
+  border-radius: 5%;
+  height: 70vh;
+  
 
 }
 
@@ -77,21 +88,23 @@ button:hover {
 input[type=text] {
   padding: 12px 20px;
   margin: 8px 0;
+  width: 90%;
   box-sizing: border-box;
   border: none;
   background-color: #1c304e;
   color: #ffe600;
   cursor: pointer;
-  border-radius: 10px 100px / 120px;
+  border-radius: 10px ;
 }
 
 input[type=password] {
   padding: 12px 20px;
   margin: 8px 0;
+  width: 90%;
   box-sizing: border-box;
   border: none;
   cursor: pointer;
   background-color: #1c304e;
   color: #ffe600;
-  border-radius: 10px 100px / 120px;
+  border-radius: 10px ;
 }
