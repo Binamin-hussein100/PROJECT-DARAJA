@@ -53,6 +53,12 @@ form{
   text-decoration: underline;
 }
 
+.fourseven{
+  color: #ffe600;
+  background-color: #1c304e;
+  cursor: pointer;
+}
+
 .fourfive{
   color: #ffe600;
   background-color: #0b1b33;
