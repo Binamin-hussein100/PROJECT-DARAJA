@@ -48,6 +48,10 @@ body{
   width: 20%;
 }
 
+.seven{
+  
+}
+
 .container{
   background-color: #3E537C;
   text-align: center;
@@ -55,6 +59,7 @@ body{
   color: #ffe600;
   border: 50px;
   border-radius: 10px 100px / 120px;
+
 }
 
 button:hover {
