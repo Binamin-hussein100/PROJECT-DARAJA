@@ -12,7 +12,7 @@ body{
   text-shadow: #3e537c;
   color: #B2A528;
   text-align: center;
-  font-size: 24px;
+  font-size: 30px;
   padding-bottom: 2%;
   border-radius: 25%;
   font-family: 'Shadows Into Light', cursive;
@@ -29,10 +29,19 @@ body{
   font-family: 'Shadows Into Light', cursive;
 
 }
+#back{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 30px;
+  color: #B2A528;
+  text-align: left;
+}
 p{
   text-align: center;
   font-style: 'Shadows Into Light', cursive;
   
+}
+.socials{
+font-size: 30px;
 }
 #abtbody{
   font-size: 24px;

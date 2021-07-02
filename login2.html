@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Log in-Guest</title>
+    <title>Log in-Resident</title>
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,19 +21,19 @@
     <br> <br> <br>
     <h3><a class="foursix" href="barry.html">Home</a></h3>
     <div class="container seven">
-      <form action="" method="" >
+      <form action="binamin.html" method="" >
         <h3 class="three">Resident</h3>
         <br>
         <div>
-          <label for="username"><b>Account Number</b></label>
+          <label for="username"><b>ACCOUNT NUMBER</b></label>
           <br>
-          <input type="text" placeholder="Enter Account No ..." name="username" required>
+          <input id="username" type="text" placeholder="Enter Office No ..." name="username" required>
           <br>
-          <label for="password"><b>Password</b></label>
+          <label for="password"><b>PASSWORD</b></label>
           <br>
-          <input type="password" placeholder="Enter Password ... " name="password" required>
+          <input id="password" type="password" placeholder="Enter Password ... " name="password" required>
           <br>
-          <button class="fourfive" type="submit">Login</button>
+          <button onclick="loginresident();" value="submit" id="submit" class="fourfive" type="submit">LOG IN</button>
           <br>
           <a href="login1.html" class="four">Admin?</a>
           <label>

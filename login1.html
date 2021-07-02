@@ -8,7 +8,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
-
     <link href="css-kk/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css-kk/styles.css" rel="stylesheet" type="text/css">
     <link rel="icon" href="img-kk/daraja4.png" type="image/x-icon"/>
@@ -22,20 +21,20 @@
     <br> <br> <br>
     <h3><a class="foursix" href="barry.html">Home</a></h3>
     <div class="container seven">
-      <form action="" method="" >
-        <h3 class="three">Admin</h3>
+      <form action="binamin.html" method="" >
+        <h3 class="three">ADMIN</h3>
         
         <br>
-        <div>
-          <label for="username"><b>Office Number</b></label>
+        <div class="info">
+          <label for="username"><b>OFFICE NUMBER</b></label>
           <br>
-          <input type="text" placeholder="Enter Office No ..." name="username" required>
+          <input id="username" type="text" placeholder="Enter Office No ..." name="username" required>
           <br>
-          <label for="password"><b>Password</b></label>
+          <label for="password"><b>PASSWORD</b></label>
           <br>
-          <input type="password" placeholder="Enter Password ... " name="password" required>
+          <input id="password" type="password" placeholder="Enter Password ... " name="password" required>
           <br>
-          <button class="fourfive" type="submit">Login</button>
+          <button onclick="loginadmin();"  value="submit" id="submit" class="fourfive" type="submit">LOG IN</button>
           <br>
           <a href="login2.html" class="four">Resident?</a>
           <label>

@@ -7,6 +7,142 @@
 #news {
     background-color: #192743;
 }
+.logo img {
+    position: relative;
+    /* width: 100px;
+    height: auto; */
+    height: 60px;
+    width: auto;
+    z-index: 1;
+    left: 18px;
+    top: 2px;
+}
+.page {
+    display: inline-block;
+    padding: 12px;
+}
+.page ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+}
+.page ul li {
+    position: relative;
+}
+.page ul li ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+.page ul li a {
+    display: block;
+    min-width: 150px;
+    padding: 7px 4px;
+    margin-right: 5px;
+    background-color: #393939;
+    color: #B2A528;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2rem;
+}
+.page ul li a:hover {
+    color: #2CC1D9;
+}
+.page ul ul {
+    list-style-type: none;
+    position: absolute;
+    left: -9999px;
+}
+.page ul ul li {
+    float: none;
+}
+.page ul ul li a {
+    background-color: #B2A528;
+    min-width: 200px;
+    color: #fff;
+    border: 1px solid #fff;
+    display: block;
+    padding: 7px 2px;
+    text-decoration: none;
+    font-size: 10rem;
+}
+.page ul ul li a:hover {
+    color: #393939;
+}
+.page ul li:hover ul {
+    left: 0px;
+}.logo img {
+    position: relative;
+    /* width: 100px;
+    height: auto; */
+    height: 60px;
+    width: auto;
+    z-index: 1;
+    left: 18px;
+    top: 2px;
+}
+.page {
+    display: inline-block;
+    padding: 12px;
+}
+.page ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+}
+.page ul li {
+    position: relative;
+}
+.page ul li ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+.page ul li a {
+    display: block;
+    min-width: 150px;
+    padding: 7px 4px;
+    margin-right: 5px;
+    background-color: #393939;
+    color: #B2A528;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2rem;
+}
+.page ul li a:hover {
+    color: #2CC1D9;
+}
+.page ul ul {
+    list-style-type: none;
+    position: absolute;
+    left: -9999px;
+}
+.page ul ul li {
+    float: none;
+}
+.page ul ul li a {
+    background-color: #B2A528;
+    min-width: 200px;
+    color: #fff;
+    border: 1px solid #fff;
+    display: block;
+    padding: 7px 2px;
+    text-decoration: none;
+    font-size: 10rem;
+}
+.page ul ul li a:hover {
+    color: #393939;
+}
+.page ul li:hover ul {
+    left: 0px;
+}
+
 
 #news2{
     width: 90%;
