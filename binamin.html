@@ -20,13 +20,13 @@
         <div class="navigation-container">
             <div class="navigation-content">
                 <!-- logo -------->
-                <figure class="logo">
+                <!-- <figure class="logo">
                     <img src="./IMAGE/daraja_project-removebg-preview.png" alt="logo">
-                </figure>
+                </figure> -->
                 <!--Home---------------------------------------->
                 <div class="page">
                     <ul>
-                        <li><a href="#">HOME</a></li>
+                        <li><a href="./barry.html">HOME</a></li>
                         <li><a href="./aboutus.html">ABOUT US</a></li>
                         <li><a href="#">FAQ</a></li>
                         <li><a href="./contactus.html">CONTACT US</a></li>
@@ -355,8 +355,16 @@
 
                 <div class="row">
                     <div class="col-md-12 form-group">
-                        <button id="btn" type="submit"class="btn btn-outline-warning btn-sm btn-block my-4 text-uppercase">Send Message</button>
+                        <button id="btn" data-toggle="modal" data-target=".bd-example-modal-sm" class="btn btn-outline-warning btn-sm btn-block my-4 text-uppercase" type="submit"class="btn btn-outline-warning btn-sm btn-block my-4 text-uppercase">Send Message</button>
                     </div>
+                    <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-sm">
+                          <div class="modal-content">
+                             <p>Thank you for reaching out to us. <br>
+                                
+                          </div>
+                        </div>
+                      </div>
                 </div>
             </form>
             <div class="card-footer text-muted">
